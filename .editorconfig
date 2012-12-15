@@ -1,0 +1,26 @@
+; top-most EditorConfig file
+root = false
+
+; Unix-style newlines
+[*]
+end_of_line = LF
+
+; 4 space indentation
+[*.php]
+indent_style = tab
+indent_size = 2
+
+; Tab (2 column) indentation
+[*.js]
+indent_style = tab
+indent_size = 2
+
+; Tab (2 column) indentation
+[*.ctp]
+indent_style = tab
+indent_size = 2
+
+; Tab (2 column) indentation
+[*.css]
+indent_style = tab
+indent_size = 2

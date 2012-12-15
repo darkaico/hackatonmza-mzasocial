@@ -22,6 +22,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <html xmlns="http://www.w3.org/1999/xhtml">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('/js/jquery.1.8.3.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
@@ -32,28 +33,29 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('bootstrap');
+		echo $this->Html->css('bootstrap-responsive');
+		echo $this->Html->css('agregados');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
 </head>
-<body>
-	<div id="container">
-		<div id="header">
-			<h1>Hackaton MZA</h1>
-		</div>
-		<div id="content">
+<body>	
+	<?php //echo $this->element('navbar'); ?>
 
-			<?php echo $this->Session->flash(); ?>
+	<div class="container">
+		<?php echo $this->Session->flash(); ?>
+		<?php echo $this->fetch('content'); ?>
 
-			<?php echo $this->fetch('content'); ?>
-		</div>
 		<div id="footer">
-			<?php echo $this->element('footer'); ?>  
-			<?php echo $this->Html->script("bootstrap.min");?>
+			<?php echo $this->element('footer'); ?>  			
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>	
+	<?php 
+		echo $this->element('sql_dump'); 
+		echo $this->Html->script("bootstrap.min");
+		echo $this->Html->script("gmaps");
+	?>	
 </body>
 </html>
