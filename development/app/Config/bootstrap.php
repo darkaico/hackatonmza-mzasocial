@@ -166,16 +166,16 @@ Configure::write('Dispatcher.filters', array(
 ));
 
 // Define a custom reader to search for config files
-App::uses('PhpReader', 'Configure');
-Configure::config('default',
-    new PhpReader(ROOT . DS . 'data' . DS . 'config' . DS));
-// Determine the environment
-if ($env = getenv('APP_ENV')) {
-    if (!defined('APP_ENV')) define('APP_ENV', $env);
-}
-else {
-    if (!defined('APP_ENV')) define('APP_ENV', 'local');
-}
+// App::uses('PhpReader', 'Configure');
+// Configure::config('default',
+//     new PhpReader(ROOT . DS . 'data' . DS . 'config' . DS));
+// // Determine the environment
+// if ($env = getenv('APP_ENV')) {
+//     if (!defined('APP_ENV')) define('APP_ENV', $env);
+// }
+// else {
+//     if (!defined('APP_ENV')) define('APP_ENV', 'local');
+// }
 
 /**
  * Configures default file logging options
@@ -192,9 +192,9 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
-try {
-    Configure::load(APP_ENV);
-}
-catch (ConfigureException $e) {
-    // do something, for example exit application
-}
+// try {
+//     Configure::load(APP_ENV);
+// }
+// catch (ConfigureException $e) {
+//     // do something, for example exit application
+// }
