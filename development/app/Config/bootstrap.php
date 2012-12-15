@@ -165,7 +165,7 @@ Configure::write('Dispatcher.filters', array(
 	'CacheDispatcher'
 ));
 
-// Define a custom reader to search for config files
+//Define a custom reader to search for config files
 App::uses('PhpReader', 'Configure');
 Configure::config('default',
     new PhpReader(ROOT . DS . 'data' . DS . 'config' . DS));
