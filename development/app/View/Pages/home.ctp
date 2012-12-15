@@ -1,14 +1,37 @@
 <script type="text/javascript">
+	var map;
+
+	function getCheckins() {
+		var searchUrl = 'http://search.twitter.com/search.json?q=4sq.com&rpp=100&geocode="-32.894579,-68.842495,1mi"&callback=?';
+		 $.getJSON(searchUrl, function(data) {
+        console.log(data);
+
+        $.each(data.results, function(index, value) { 
+        	if(value.geo !== null) {        		
+	        	var coor = value.geo.coordinates;
+					  //console.log(value.text);
+					  map.addMarker({
+						  lat: coor[0],
+						  lng: coor[1],
+						  title: value.text
+						});
+        	}
+				});        
+    });
+	}	
+
 	function loadMap() {
-    new GMaps({
-		  div: '#mapa',
-		  lat: -12.043333,
-		  lng: -77.028333
+    map = new GMaps({
+		  div: '#mapa',		
+		  mapTypeId: google.maps.MapTypeId.ROADMAP,  
+		  lat: -32.894579,
+		  lng: -68.842495,
 		});
   }
 
 	$(document).ready(function() { 
 	    loadMap();
+	    getCheckins();
 	});	
 </script>
 
