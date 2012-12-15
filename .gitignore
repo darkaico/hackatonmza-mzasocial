@@ -4,3 +4,7 @@ development/app/Config/database.php
 development/app/Config/database.php
 
 development/app/Config/core.php
+
+development/data/logs/error.log
+
+development/data/logs/error.log
