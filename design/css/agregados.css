@@ -1,14 +1,7 @@
-body {
-	width: 1024px;
-	margin: auto;
-	margin-top: 10px; 
-}
 
-header{
+height:60px;
 
-height:120px;
-
-padding: 20px;
+padding: 10px 24px;
 
 background-image: linear-gradient(bottom, rgb(207,207,207) 24%, rgb(245,245,245) 100%);
 background-image: -o-linear-gradient(bottom, rgb(207,207,207) 24%, rgb(245,245,245) 100%);
@@ -35,5 +28,36 @@ border-top-right-radius: 8px;
 
 header h1{float: left;}
 
-header .lead {width: 560px; float: right; font-size: 16px; line-height: 18px; color: #666; margin-top: 20px; text-shadow: 0px 1px #ffffff;
+header .lead {width: 640px; float: right; font-size: 16px; line-height: 18px; color: #666; margin-top: 20px; text-shadow: 0px 1px #ffffff;
 }
+
+form div {width: 50%}
+
+form a {font-size: 11px; }
+
+form input[type='submit']{
+
+	padding: 5px 10px;
+	color:#fff;
+
+	border: 1px solid #999;
+
+	background-image: linear-gradient(bottom, rgb(58,156,25) 19%, rgb(123,230,87) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(58,156,25) 19%, rgb(123,230,87) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(58,156,25) 19%, rgb(123,230,87) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(58,156,25) 19%, rgb(123,230,87) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(58,156,25) 19%, rgb(123,230,87) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.19, rgb(58,156,25)),
+		color-stop(1, rgb(123,230,87))
+	);
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	text-shadow: 0px -1px #666
