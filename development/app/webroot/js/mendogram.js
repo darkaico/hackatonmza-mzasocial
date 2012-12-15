@@ -1,4 +1,5 @@
 var map;
+var heatmap;
 
 function getCheckins() {
 	var searchUrl = 'http://search.twitter.com/search.json?q=4sq.com&rpp=100&geocode="-32.894579,-68.842495,5mi"&callback=?';
@@ -17,6 +18,7 @@ function getCheckins() {
 					});
 
 					marker.setMap(map);
+					heatmap.pushData(coor[0], coor[1],120);
       	}
 			});        
   });
@@ -31,9 +33,11 @@ function loadMap() {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     zoomControl: true
   });
+  heatmap = new HeatCanvasOverlayView(map, {'step':0.1, 'degree':HeatCanvas.QUAD, 'opacity':0.8});
 }
 
 $(document).ready(function() { 
     loadMap();
+
     getCheckins();
 });	

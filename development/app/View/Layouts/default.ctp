@@ -23,6 +23,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('/js/jquery.1.8.3.min.js"><\/script>')</script>
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/js/heatcanvas-master/heatcanvas.js"></script>
+<script type="text/javascript" src="/js/heatcanvas-master/heatcanvas-googlemaps.js"></script>
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
@@ -56,7 +58,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<?php 
 		echo $this->element('sql_dump'); 
 		echo $this->Html->script("bootstrap.min");
-		echo $this->Html->script("gmaps");
+		//echo $this->Html->script("gmaps");
 	?>	
 </body>
 </html>
