@@ -7,9 +7,9 @@
 		</p>
 	</header>
 
-	<aside class="span8">		
+	<div class="span8">		
 		<div id="mapa"></div>
-	</aside>
+	</div>
 
 	<aside class="span4">
 		<div id="timeline"></div>
