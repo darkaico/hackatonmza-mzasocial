@@ -3,7 +3,7 @@
 	<header>
 		<h1><img src="img/logo.png" /></h1>
 		<p class="lead">
-			¿Dónde va el mendocino a la noche? Esta es la pregunta que nos hicimos en el 1er Hackatón de Mendoza. La respuesta la obtenemos desde las redes sociales (Foursquare)
+			¿Dónde va el mendocino? Esta es la pregunta que nos hicimos en el 1er Hackatón de Mendoza. La respuesta la obtenemos desde las redes sociales (Foursquare)
 		</p>
 	</header>
 

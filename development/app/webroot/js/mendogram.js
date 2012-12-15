@@ -20,9 +20,11 @@ function getCheckins() {
 				    content: value.text,
 				    maxWidth: 200
 					});
+
 					google.maps.event.addListener(marker, 'click', function() {
-					  infowindow.open(map,marker);
+					  infowindow.open(map, marker);
 					});
+					
 					marker.setMap(map);
 					heatmap.pushData(coor[0], coor[1],120);
 
