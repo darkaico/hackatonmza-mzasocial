@@ -1,0 +1,1241 @@
+{
+    "meta": {
+        "code": 200,
+        "errorType": "deprecated",
+        "errorDetail": "This endpoint will stop returning groups in the future. Please use a current version, see http://bit.ly/vywCav."
+    },
+    "response": {
+        "groups": [
+            {
+                "type": "nearby",
+                "name": "Cercanos",
+                "items": [
+                    {
+                        "id": "4e035571aeb7985765792b60",
+                        "name": "Bute Plaza",
+                        "contact": {},
+                        "location": {
+                            "address": "Espejo 501",
+                            "crossStreet": "Chile",
+                            "lat": -32.888366368170622,
+                            "lng": -68.845492935397601,
+                            "distance": 147,
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 246,
+                            "usersCount": 162,
+                            "tipCount": 23
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4e04290e18a877730b765410",
+                        "name": "Gonza's House",
+                        "contact": {},
+                        "location": {
+                            "address": "España 974",
+                            "crossStreet": "Rivadavia",
+                            "lat": -32.891423635334782,
+                            "lng": -68.842704287536279,
+                            "distance": 280,
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 62,
+                            "usersCount": 8,
+                            "tipCount": 1
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4d6986a637e8ba7af1752e99",
+                        "name": "MegaDegustacion de Vendimia 2011",
+                        "contact": {},
+                        "location": {
+                            "address": "Sarmiento",
+                            "lat": -32.888957306007256,
+                            "lng": -68.848357200622559,
+                            "distance": 363,
+                            "postalCode": "5500",
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d123941735",
+                                "name": "Bar de vinos",
+                                "pluralName": "Bares de vino",
+                                "shortName": "Bar de vinos",
+                                "icon": "https://foursquare.com/img/categories/nightlife/wine.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 26,
+                            "usersCount": 22,
+                            "tipCount": 0
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4b571d19f964a520f42628e3",
+                        "name": "Espacio 348 (Bar)",
+                        "contact": {
+                            "phone": "+542614295082",
+                            "formattedPhone": "+54 261 429-5082"
+                        },
+                        "location": {
+                            "address": "San Lorenzo 348",
+                            "lat": -32.893076458257219,
+                            "lng": -68.844695347512626,
+                            "distance": 409,
+                            "postalCode": "5500",
+                            "city": "Ciudad",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 681,
+                            "usersCount": 251,
+                            "tipCount": 20
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4bad316bf964a52099373be3",
+                        "name": "Believe Irish Pub",
+                        "contact": {
+                            "phone": "+542614295567",
+                            "formattedPhone": "+54 261 429-5567"
+                        },
+                        "location": {
+                            "address": "Av. Colon 241",
+                            "crossStreet": "btw Patricias Mendocinas & Av España",
+                            "lat": -32.894385,
+                            "lng": -68.843664000000004,
+                            "distance": 560,
+                            "postalCode": "5521",
+                            "city": "Ciudad",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d117941735",
+                                "name": "Bar al aire libre",
+                                "pluralName": "Bares al aire libre",
+                                "shortName": "Bar al aire libre",
+                                "icon": "https://foursquare.com/img/categories/nightlife/beergarden.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 1055,
+                            "usersCount": 330,
+                            "tipCount": 25
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4bbf8a03920eb713f182172c",
+                        "name": "The Vines of Mendoza Tasting Room",
+                        "contact": {
+                            "phone": "+542614381031",
+                            "formattedPhone": "+54 261 438-1031",
+                            "twitter": "vinesofmendoza"
+                        },
+                        "location": {
+                            "address": "Belgrano 1194",
+                            "crossStreet": "at Espejo and Agustin Alvarez",
+                            "lat": -32.887786093572267,
+                            "lng": -68.849687576293945,
+                            "distance": 517,
+                            "postalCode": "Argentina",
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d123941735",
+                                "name": "Bar de vinos",
+                                "pluralName": "Bares de vino",
+                                "shortName": "Bar de vinos",
+                                "icon": "https://foursquare.com/img/categories/nightlife/wine.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": true,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 224,
+                            "usersCount": 115,
+                            "tipCount": 4
+                        },
+                        "url": "http://www.vinesofmendoza.com",
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4c5f6fcc048b952182702a78",
+                        "name": "La Taberna de Moe",
+                        "contact": {},
+                        "location": {
+                            "address": "Catamarca 22",
+                            "crossStreet": "btw San Martin & San Juan",
+                            "lat": -32.889748111908794,
+                            "lng": -68.838367031255203,
+                            "distance": 574,
+                            "postalCode": "5500",
+                            "city": "Ciudad",
+                            "state": "Mendoza - Argentina",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 201,
+                            "usersCount": 96,
+                            "tipCount": 5
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4f175b28e4b0ebf9e3995360",
+                        "name": "Johnny B Good",
+                        "contact": {},
+                        "location": {
+                            "address": "A. Villlanueva 372",
+                            "lat": -32.89204332453734,
+                            "lng": -68.856111889944629,
+                            "distance": 1124,
+                            "postalCode": "5500",
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d14e941735",
+                                "name": "Restaurante americano",
+                                "pluralName": "Restaurantes americanos",
+                                "shortName": "Americana",
+                                "icon": "https://foursquare.com/img/categories/food/default.png",
+                                "parents": [
+                                    "Food"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 1680,
+                            "usersCount": 524,
+                            "tipCount": 52
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4fee783be4b0f5b9d7d42c1e",
+                        "name": "La Mecánica Ondulatoria",
+                        "contact": {},
+                        "location": {
+                            "address": "9 julio",
+                            "lat": -32.895433857078565,
+                            "lng": -68.842139571391968,
+                            "distance": 706,
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 79,
+                            "usersCount": 52,
+                            "tipCount": 2
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4b6d7babf964a52079772ce3",
+                        "name": "PPTH ::: EVOLUTION BAR",
+                        "contact": {
+                            "phone": "+542614234893",
+                            "formattedPhone": "+54 261 423-4893"
+                        },
+                        "location": {
+                            "address": "Av. Aristides Villanueva 264",
+                            "lat": -32.892527999999999,
+                            "lng": -68.854253999999997,
+                            "distance": 975,
+                            "postalCode": "5500",
+                            "city": "Mendoza",
+                            "state": "Mendoza/Argentina",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 719,
+                            "usersCount": 318,
+                            "tipCount": 16
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4c08705bffb8c9b63a5f6861",
+                        "name": "Por Aca",
+                        "contact": {},
+                        "location": {
+                            "address": "Aristides villanueva 557",
+                            "lat": -32.891655475700098,
+                            "lng": -68.858428958025627,
+                            "distance": 1326,
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 1007,
+                            "usersCount": 282,
+                            "tipCount": 16
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4b91c70bf964a520acd633e3",
+                        "name": "Ph bar",
+                        "contact": {},
+                        "location": {
+                            "address": "Av Aristides Villanueva 282",
+                            "lat": -32.892516000000001,
+                            "lng": -68.854292999999998,
+                            "distance": 978,
+                            "city": "mendoza",
+                            "state": "mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 722,
+                            "usersCount": 324,
+                            "tipCount": 37
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4b8f198af964a520014933e3",
+                        "name": "Basilika Bar",
+                        "contact": {},
+                        "location": {
+                            "address": "Aristides Villanueva",
+                            "lat": -32.892363639999999,
+                            "lng": -68.855251999999993,
+                            "distance": 1057,
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 332,
+                            "usersCount": 128,
+                            "tipCount": 8
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4f766180e4b0a35da350fb5e",
+                        "name": "Tao Bar",
+                        "contact": {},
+                        "location": {
+                            "address": "Aristides Villanueva",
+                            "crossStreet": "Olascouaga",
+                            "lat": -32.89182400467633,
+                            "lng": -68.855657790903081,
+                            "distance": 1077,
+                            "postalCode": "5500",
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 211,
+                            "usersCount": 109,
+                            "tipCount": 7
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4c5353c78f1095218ab3655a",
+                        "name": "El Punto Bar",
+                        "contact": {},
+                        "location": {
+                            "address": "Aristides Villanueva 305",
+                            "lat": -32.892128511195146,
+                            "lng": -68.855524063110352,
+                            "distance": 1074,
+                            "postalCode": "5500",
+                            "city": "Ciudad",
+                            "state": "Mendoza - Argentina",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 76,
+                            "usersCount": 63,
+                            "tipCount": 4
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4f2cb21ae4b07ca3147b0937",
+                        "name": "Bendito Bar",
+                        "contact": {
+                            "twitter": "bendito_bar"
+                        },
+                        "location": {
+                            "address": "Aristides Villanueva 389",
+                            "lat": -32.891948332123647,
+                            "lng": -68.856339454650865,
+                            "distance": 1142,
+                            "postalCode": "5500",
+                            "city": "Ciudad",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": true,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 169,
+                            "usersCount": 83,
+                            "tipCount": 5
+                        },
+                        "url": "http://www.facebook.com/barbendito",
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4c492690a3ace21e28f5353b",
+                        "name": "Iskra",
+                        "contact": {},
+                        "location": {
+                            "lat": -32.899444873539906,
+                            "lng": -68.849352791214301,
+                            "distance": 1206,
+                            "city": "Godoy Cruz",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 241,
+                            "usersCount": 95,
+                            "tipCount": 6
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4c50e5dd9d642d7f4bc5a5dc",
+                        "name": "Apeteco",
+                        "contact": {},
+                        "location": {
+                            "address": "Barraquero 101-159",
+                            "lat": -32.901669476444624,
+                            "lng": -68.840655007695247,
+                            "distance": 1412,
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 184,
+                            "usersCount": 104,
+                            "tipCount": 4
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4f110e1ae4b0958ec0d2a633",
+                        "name": "Boa House",
+                        "contact": {},
+                        "location": {
+                            "lat": -32.884833485410965,
+                            "lng": -68.857375216296873,
+                            "distance": 1306,
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d118941735",
+                                "name": "Antro",
+                                "pluralName": "Antros",
+                                "shortName": "Antro",
+                                "icon": "https://foursquare.com/img/categories/nightlife/divebar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 25,
+                            "usersCount": 4,
+                            "tipCount": 0
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4b757179f964a520cd0c2ee3",
+                        "name": "Club Mendoza de Regatas",
+                        "contact": {},
+                        "location": {
+                            "lat": -32.893497860162931,
+                            "lng": -68.867454528808594,
+                            "distance": 2193,
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 930,
+                            "usersCount": 148,
+                            "tipCount": 8
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4ed964a377c8274efbee7c8f",
+                        "name": "La Interzona Bar",
+                        "contact": {},
+                        "location": {
+                            "lat": -32.903633223889813,
+                            "lng": -68.846779554704355,
+                            "distance": 1598,
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 103,
+                            "usersCount": 45,
+                            "tipCount": 2
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4d27638d849f37049ba76841",
+                        "name": "La mala",
+                        "contact": {},
+                        "location": {
+                            "address": "Avenida san martín",
+                            "crossStreet": "Maipu",
+                            "lat": -32.876739897966871,
+                            "lng": -68.835654258728027,
+                            "distance": 1634,
+                            "city": "Mendoza",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 186,
+                            "usersCount": 99,
+                            "tipCount": 6
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4c6f3c382930bfb79c95f380",
+                        "name": "Bauhaus Bar Creativo",
+                        "contact": {},
+                        "location": {
+                            "address": "San Martín 2307",
+                            "lat": -32.876089999999998,
+                            "lng": -68.835409749999997,
+                            "distance": 1708,
+                            "postalCode": "5500",
+                            "city": "Ciudad",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 130,
+                            "usersCount": 53,
+                            "tipCount": 7
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4f498c56e4b011fb76a7d418",
+                        "name": "La Barrica",
+                        "contact": {
+                            "phone": "+542615218800",
+                            "formattedPhone": "+54 261 521-8800",
+                            "twitter": "intermendoza"
+                        },
+                        "location": {
+                            "address": "Blvd Perez Cuesta esq Acceso Este Lateral Norte",
+                            "lat": -32.900920804587066,
+                            "lng": -68.800420761108384,
+                            "distance": 4315,
+                            "postalCode": "5521",
+                            "city": "Guaymallen",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d1d5941735",
+                                "name": "Bar de hotel",
+                                "pluralName": "Bares de hoteles",
+                                "shortName": "Bar de hotel",
+                                "icon": "https://foursquare.com/img/categories/nightlife/hotelbar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": true,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 105,
+                            "usersCount": 10,
+                            "tipCount": 3
+                        },
+                        "url": "http://www.intercontinentalmendoza.com",
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4dfad08418a8fc7fb43e1cbc",
+                        "name": "Geo",
+                        "contact": {},
+                        "location": {
+                            "address": "Av. San Martin Sur 576",
+                            "lat": -32.930227000607616,
+                            "lng": -68.849859287662014,
+                            "distance": 4572,
+                            "city": "Godoy Cruz",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 201,
+                            "usersCount": 84,
+                            "tipCount": 7
+                        },
+                        "url": "http://www.geodisco.com/index1024.php",
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4d8ac1d4d85f3704e6f605dc",
+                        "name": "Pop'n roll",
+                        "contact": {},
+                        "location": {
+                            "address": "San martin sur",
+                            "lat": -32.935811837434862,
+                            "lng": -68.850552081476735,
+                            "distance": 5197,
+                            "city": "Godoy Cruz",
+                            "state": "Mendoza",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d116941735",
+                                "name": "Bar",
+                                "pluralName": "Bares",
+                                "shortName": "Bar",
+                                "icon": "https://foursquare.com/img/categories/nightlife/bar.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 172,
+                            "usersCount": 70,
+                            "tipCount": 3
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4df04b1cd16486e86e4fa420",
+                        "name": "JMc´ s",
+                        "contact": {
+                            "twitter": "juanma_gulino"
+                        },
+                        "location": {
+                            "lat": -32.975224026879211,
+                            "lng": -68.788533210754395,
+                            "distance": 10891,
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 179,
+                            "usersCount": 11,
+                            "tipCount": 0
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4eed6cef77c82b92f810f656",
+                        "name": "Black Jagger Club",
+                        "contact": {},
+                        "location": {
+                            "lat": -32.977594280999064,
+                            "lng": -68.79828925848912,
+                            "distance": 10725,
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 273,
+                            "usersCount": 142,
+                            "tipCount": 7
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4fc03160e4b01d437d98eb37",
+                        "name": "ACRUX",
+                        "contact": {},
+                        "location": {
+                            "lat": -32.968861120955403,
+                            "lng": -68.878147228478127,
+                            "distance": 9387,
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 68,
+                            "usersCount": 47,
+                            "tipCount": 1
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    },
+                    {
+                        "id": "4d94cd5107d0ba7a76c670f8",
+                        "name": "Al Sur",
+                        "contact": {},
+                        "location": {
+                            "address": "Ruta Provincial 82",
+                            "lat": -33.009491221626178,
+                            "lng": -68.922386169433594,
+                            "distance": 15220,
+                            "postalCode": "5507",
+                            "city": "Mendoza",
+                            "state": "Argentina",
+                            "country": "Argentina",
+                            "cc": "AR"
+                        },
+                        "categories": [
+                            {
+                                "id": "4bf58dd8d48988d11f941735",
+                                "name": "Club nocturno",
+                                "pluralName": "Clubes nocturnos",
+                                "shortName": "Club nocturno",
+                                "icon": "https://foursquare.com/img/categories/nightlife/danceparty.png",
+                                "parents": [
+                                    "Nightlife Spots"
+                                ],
+                                "primary": true
+                            }
+                        ],
+                        "verified": false,
+                        "restricted": true,
+                        "stats": {
+                            "checkinsCount": 216,
+                            "usersCount": 118,
+                            "tipCount": 4
+                        },
+                        "likes": {
+                            "count": 0,
+                            "groups": []
+                        },
+                        "specials": []
+                    }
+                ]
+            }
+        ]
+    }
+}
