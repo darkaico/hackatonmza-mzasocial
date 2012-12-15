@@ -13,12 +13,20 @@ function getCheckins() {
       		var center = new google.maps.LatLng(coor[0], coor[1]);
       		var marker = new google.maps.Marker({
 					    position: center,
-					    icon: '/img/marcador.png',
-					    title: value.text
+					    icon: '/img/marcador.png'
 					});
 
+					var infowindow = new google.maps.InfoWindow({
+				    content: value.text,
+				    maxWidth: 200
+					});
+					google.maps.event.addListener(marker, 'click', function() {
+					  infowindow.open(map,marker);
+					});
 					marker.setMap(map);
 					heatmap.pushData(coor[0], coor[1],120);
+
+					$('#timeline').append('<img src="'+value.profile_image_url+'"><p>'+value.text+'</p><p>'+value.created_at+'</p>');
       	}
 			});        
   });

@@ -12,6 +12,6 @@
 	</aside>
 
 	<aside class="span4">
-		
+		<div id="timeline"></div>
 	</aside>
 </div>
