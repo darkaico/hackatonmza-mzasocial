@@ -5,6 +5,8 @@ Proyecto surgido en el [1er Hackatón en la Ciudad de Mendoza]( http://hackatonm
 
 ## Objetivos
 
-+ Crear un mapa que muestre dónde va la gente den la noche de Mendoza
++ Crear un mapa que muestre dónde va la gente durante la noche de Mendoza
 + Tomar la información de las redes sociales
++ Geolocalizar la información en mapas
++ Mostrarla en una línea de tiempo.
 + Agregar información propia sobre los bares
