@@ -2,3 +2,5 @@
 development/app/Config/database.php
 
 development/app/Config/database.php
+
+development/app/Config/core.php
