@@ -29,10 +29,10 @@ function getCheckins() {
 					heatmap.pushData(coor[0], coor[1],120);
 
 					$('#timeline').append('<img src="'+value.profile_image_url+'"><p>'+value.text+'</p><p>'+value.created_at+'</p>');
-      	}
-			});        
+     		}
+			});
   });
-}	
+}
 
 function loadMap() {
 
@@ -46,8 +46,11 @@ function loadMap() {
   heatmap = new HeatCanvasOverlayView(map, {'step':0.1, 'degree':HeatCanvas.QUAD, 'opacity':0.8});
 }
 
-$(document).ready(function() { 
+$(function(){
     loadMap();
-
     getCheckins();
-});	
+});
+
+$(window).ready(function(){
+
+});
