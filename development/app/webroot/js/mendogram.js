@@ -25,7 +25,7 @@ function getCheckins() {
 					google.maps.event.addListener(marker, 'click', function() {
 					  infowindow.open(map, marker);
 					});
-
+					
 					marker.setMap(map);
 					heatmap.pushData(coor[0], coor[1],120);
 
@@ -55,8 +55,7 @@ function loadMap() {
   heatmap = new HeatCanvasOverlayView(map, {'step':0.1, 'degree':HeatCanvas.QUAD, 'opacity':0.8});
 }
 
-$(document).ready(function() { 
-    loadMap();
-
+$(window).ready(function(){
+	loadMap();
     getCheckins();
-});	
+});
