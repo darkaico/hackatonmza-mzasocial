@@ -7,9 +7,11 @@
 		</p>
 	</header>
 
-	<div class="span8">		
+	<aside class="span8">		
 		<div id="mapa"></div>
-	</div>
+	</aside>
 
-	<aside class="span4">Línea de tiempo</aside>
+	<aside class="span4">
+		
+	</aside>
 </div>
