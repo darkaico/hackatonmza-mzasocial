@@ -12,7 +12,7 @@ Configure::write('Database.config', array(
     'default' => array(
         'datasource' => 'Database/Mysql',
         'persistent' => false,
-        'host' => '127.0.0.1',
+        'host' => 'localhost',
         'login' => 'root',
         'password' => 'root',
         'database' => 'hackaton_mza',

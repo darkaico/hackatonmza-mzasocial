@@ -4,3 +4,20 @@
 2012-12-15 15:41:09 Error: [MissingControllerException] Controller class Index.phpController could not be found.
 #0 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-12-15 16:28:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/Model.php(3164): ConnectionManager::getDataSource('default')
+#3 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/Model.php(1096): Model->setDataSource('default')
+#4 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/Model.php(3186): Model->setSource('lugares')
+#5 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/Model.php(1305): Model->getDataSource()
+#6 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/Model.php(1393): Model->schema()
+#7 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/Model.php(1379): Model->hasField('title', false)
+#8 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Model/Model.php(867): Model->hasField(Array)
+#9 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#10 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(LugaresController), Object(CakeRequest))
+#11 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#12 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LugaresController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/malbecmedia/Desarrollo/proyectos/hackaton-mza/gitrepo/development/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
