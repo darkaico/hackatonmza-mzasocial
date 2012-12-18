@@ -100,10 +100,6 @@ form input[type='submit']:hover{
 	margin-right:20px;
 	position: relative;
 }
-#posts ul li p{
-	position:absolute;
-	left:130px; 
-}
 .picUsuario{
 	border:#FFF 5px solid;
 	border-radius:3px;
@@ -111,26 +107,31 @@ form input[type='submit']:hover{
 	box-shadow: 0px 2px 2px 0.5px #999;
 	width:66px;
 	height:66px;
-	float:left;
+	/*  float:left; */
 	margin-right:10px;
 	background: url("../img/pic-user.png");
+}
+.picUsuario, .dataUsuario {
+	display: inline-block;
+	vertical-align: top;
 }
 .picRedSocial{
 	width:40px;
 	height:40px;
-	float:left;
 	margin-right:10px;
 	background: url("../img/twitter-logo.png");
+}
+.hora {
+	line-height: 3em;
+	margin-left: 3px;
+}
+.picRedSocial, .nombreUsuario, .hora {
+	display: inline-block;
+	vertical-align: top;
 }
 .nombreUsuario{
 	font-weight:bold;
 	color:#000;
-	float:left;
-	line-height:3em;
-}
-#posts ul li time{
-	position:absolute;
-	right:40px;
 	line-height:3em;
 }
 .local a{
