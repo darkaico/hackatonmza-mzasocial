@@ -52,7 +52,7 @@ function loadMap() {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     zoomControl: true
   });
-  heatmap = new HeatCanvasOverlayView(map, {'step':0.1, 'degree':HeatCanvas.QUAD, 'opacity':0.8});
+  heatmap = new HeatCanvasOverlayView(map, {'step':0.1, 'degree':HeatCanvas.QUAD, 'opacity':0.5});
 }
 
 $(window).ready(function(){

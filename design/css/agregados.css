@@ -83,7 +83,7 @@ form input[type='submit']:hover{
 #timeline{
 	background:#7C7C7C;
 	right:30px;
-	position:absolute;
+	/*position:absolute;*/
 	padding:10px;
 	top:0;
 }
@@ -99,7 +99,15 @@ form input[type='submit']:hover{
 	list-style:none;
 	margin-right:20px;
 	position: relative;
+	height: 120px;
 }
+<<<<<<< HEAD
+=======
+#posts ul li p{
+	/*position:absolute;*/
+	left:130px; 
+}
+>>>>>>> Bajada la opacidad del heatmap
 .picUsuario{
 	border:#FFF 5px solid;
 	border-radius:3px;
