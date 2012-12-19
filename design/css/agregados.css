@@ -80,14 +80,14 @@ form input[type='submit']:hover{
 
 };
 
-#posts{
+#timeline{
 	background:#7C7C7C;
 	right:30px;
 	position:absolute;
 	padding:10px;
 	top:0;
 }
-#posts ul li{
+#timeline ul li{
 	background-color: #F3F3F3;
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DBDBDB), to(#F3F3F3), color-stop(.5,#F3F3F3));
 	background: -moz-linear-gradient(top, #DBDBDB 0%, #F3F3F3 50%, #F3F3F3 100%);

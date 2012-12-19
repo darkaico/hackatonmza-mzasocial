@@ -1,0 +1,12 @@
+#mapa {
+	height: 400px;
+	width: 100%;
+}
+#mapa img {
+max-width: none;
+}
+
+
+header{
+	margin-bottom: 15px;
+}

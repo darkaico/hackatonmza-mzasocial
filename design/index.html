@@ -5,6 +5,7 @@
 			<!-- Bootstrap -->
 			<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 			<link href="css/agregados.css" rel="stylesheet" media="screen">
+			<link href="css/development.css" rel="stylesheet" media="screen">
 			<meta charset=utf-8>
 		</head>
 		<body>
@@ -15,11 +16,11 @@
 						¿Dónde va el mendocino a la noche? Esta es la pregunta que nos hicimos en el 1er Hackatón de Mendoza. La respuesta la obtenemos desde las redes sociales (Foursquare)
 					</p>
 				</header>
-				<div class="span8">Mapa</div>
+				<div class="span8">
+					<div id="mapa"></div>
+				</div>
 				<aside class="span4">
-
 					<form>
-
 						<div>
 							<input type="text" placeholder="User or Email" />
 							<input type="password" placeholder="Password" />
@@ -28,27 +29,16 @@
 							<input type="submit">
 							<p><a href="#">Olvidé mi contraseña</a></p>
 						</div>
-
 					</form>
-				<div id="posts">
-						<ul>
-							<li>
-								<div class="picUsuario"></div>
-								<div class="dataUsuario">	
-									<div class="picRedSocial"></div>
-									<div class="nombreUsuario">Juan Perez</div>
-									<time class="hora">00:00hs</time>
-									<p>está en</p>
-									<div class="local">
-										<a class="" href="">Nombre Local</a>
-									<!--	<div class="rank"></div> -->
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</aside>			</div>
+				<div id="timeline"></div>				
+				</aside>			
+			</div>
 				<script src="http://code.jquery.com/jquery-latest.js"></script>
 				<script src="js/bootstrap.min.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+				<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+				<script type="text/javascript" src="/js/heatcanvas-master/heatcanvas.js"></script>
+				<script type="text/javascript" src="/js/heatcanvas-master/heatcanvas-googlemaps.js"></script>
+				<script src="js/mendogram.js"></script>
 		</body>
 	</html>
