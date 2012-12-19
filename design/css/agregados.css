@@ -101,13 +101,12 @@ form input[type='submit']:hover{
 	position: relative;
 	height: 120px;
 }
-<<<<<<< HEAD
-=======
+
 #posts ul li p{
 	/*position:absolute;*/
 	left:130px; 
 }
->>>>>>> Bajada la opacidad del heatmap
+
 .picUsuario{
 	border:#FFF 5px solid;
 	border-radius:3px;
